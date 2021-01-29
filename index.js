@@ -4,8 +4,12 @@ fetch(baseURL)
   .then(resp => resp.json())
   .then(data => displayData(data));
 
+
 function displayData(data) {
-  //document.querySelector("pre").innerHTML = JSON.stringify(data, null, 2);
-  console.log(data)
+    let filter = data.map(filter => filter.name)
+    console.log(filter)
 }
 
+// let gameName = gameName.filter(game => {
+//     return game.name.includes('Racing')
+// })
