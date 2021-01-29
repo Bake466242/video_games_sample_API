@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "users/asus/documents/projects/video_games_sample_API",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
